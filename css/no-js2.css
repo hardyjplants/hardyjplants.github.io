@@ -1,0 +1,62 @@
+@media (max-width: 399px) {
+    ul.menu {
+		display:block;
+	}
+	
+	.slicknav_menu {
+		display:none;
+	}
+    .hide-on-mobile {
+        display: none;
+    }
+    div.nav h1 {
+        display: none;
+        font-size: 2em;
+        text-align: center;
+    }
+    div.nav h2 {
+        display: none;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .logo {display: none}
+    
+    div.nav {
+        background-color: #557c3e;
+        padding: 1em 0;
+    }
+}
+
+@media (min-width: 400px) {
+    ul.menu {
+		display:block;
+	}
+	
+	.slicknav_menu {
+		display:none;
+	}
+    .hide-on-mobile {
+        display: none;
+    }
+    div.nav h1 {
+        display: none;
+    }
+    div.nav h2 {
+        display: none;
+    }
+    .logo {display: none}
+    div.nav {
+        background-color: #557c3e;
+        padding: 1em 0;
+    }
+}
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+    ul.menu {
+		display:block;
+	}
+	
+	.slicknav_menu {
+		display:none;
+	}
+}
