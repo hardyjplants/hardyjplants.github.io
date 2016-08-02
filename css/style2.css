@@ -144,22 +144,27 @@
     
     #home {
         background-image: url(/images/home.jpg);
+		background-color: #405557;
     }
     
     .contact {
         background-image: url(/images/contact.jpg);
+		background-color: #3d2e28;
     }
     
     .prices {
-        background-image: url(/images/prices.jpg)
+        background-image: url(/images/prices.jpg);
+		background-color: #7ea400;
     }
     
     .seeds {
-        background-image: url(/images/seeds.jpg)
+        background-image: url(/images/seeds.jpg);
+		background-color: #865a18;
     }
     
     .plants {
-        background-image: url(/images/plant.jpg)
+        background-image: url(/images/plant.jpg);
+		background-color: #453b39;
     }
     
     h1,
